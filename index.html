@@ -1,0 +1,332 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="card-outline.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>TrackR | Keep on track</title>
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <!-- NAVIGATION -->
+      <nav class="nav">
+        <ion-icon class="nav__logo" name="card"></ion-icon>
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a href="#section--1" class="nav__link">Features</a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--2" class="nav__link">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--3" class="nav__link">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--btn btn--show-modal" 2
+              >Open account</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- MAIN TITLE -->
+      <div class="header__title">
+        <h1>Keeping <span class="highlight">track</span> of the flow</h1>
+        <h4>Simplesst way to control your wallet</h4>
+        <button class="btn--text btn--scroll-to">
+          Learn more
+          <ion-icon
+            class="logo__learn-more"
+            name="chevron-down-outline"
+          ></ion-icon>
+        </button>
+      </div>
+    </header>
+    <!-- FEATURES SECTION -->
+    <section class="section" id="section--1">
+      <!-- FEATURES TITLE -->
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything you need to feel safe for your money.
+        </h3>
+      </div>
+      <!-- FEATURES CONTENT -->
+      <div class="features">
+        <!-- FEATURE 1 -->
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% digital bulletproof reliability</h5>
+          <p>
+            Be sure that all your data is protected by all necessary means. You
+            will never lose any information, on any platform.
+          </p>
+        </div>
+        <!-- FEATURE 2 -->
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Watch your money grow</h5>
+          <p>
+            Keeping an eye on your money flow is the first step to start saving
+            more money.
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+      </div>
+    </section>
+    <!-- OPERATIONS SECTION -->
+    <section class="section" id="section--2">
+      <!-- OPERATIONS TITLE -->
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">As simple as possible, ASAP.</h3>
+      </div>
+      <!-- OPERATIONS -->
+      <div class="operations operations--shadow-1">
+        <!-- OPERATIONS TAB -->
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Outcomes
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Incomes
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Instant Closing
+          </button>
+        </div>
+        <!-- OPERATIONS CONTENT -->
+        <!-- OPEARATION 1 -->
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-minus"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">How much did I spend yesterday?</h5>
+          <p>
+            Keep track how much and where you spend money. Customizable
+            categories inclduded.
+          </p>
+        </div>
+        <!-- OPEARATION 2 -->
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-plus"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">Start to save more money.</h5>
+          <p>
+            Keeping track of every income will get you to the point where you
+            can invest more and earn more. Infinite loop of getting rich.
+          </p>
+        </div>
+        <!-- OPEARATION 3 -->
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">No longer need your account?</h5>
+          <p>
+            If you think you no longer need an account? No problem! Close it
+            instantly and nobody will ever find out how much you earn.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIALS SECTION -->
+    <section class="section" id="section--3">
+      <!-- TESTIMONIALS TITLE -->
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Millions of users are already making their lives simpler.
+        </h3>
+      </div>
+      <!-- SLIDER -->
+      <div class="slider">
+        <!-- SLIDE 1 -->
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best financial decision ever!</h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium quas quisquam non? Quas voluptate nulla minima
+              deleniti optio ullam nesciunt, numquam corporis et asperiores
+              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+              id alias reiciendis, perferendis facere pariatur dolore veniam
+              autem esse non voluptatem saepe provident nihil molestiae.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+        <!-- SLIDE 2 -->
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The first step to becoming a millionaire.
+            </h5>
+            <blockquote class="testimonial__text">
+              Quisquam itaque deserunt ullam, quia ea repellendus provident,
+              ducimus neque ipsam modi voluptatibus doloremque, corrupti
+              laborum. Incidunt numquam perferendis veritatis neque repellendus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              deserunt exercitationem deleniti.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+        <!-- SLIDE 3 -->
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school methods.
+            </h5>
+            <blockquote class="testimonial__text">
+              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+              incidunt commodi architecto numquam omnis nulla autem,
+              necessitatibus blanditiis modi similique quidem. Odio aliquam
+              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+              alias reiciendis, perferendis facere.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+        <!-- <div class="slide"><img src="img/img-1.jpg" alt="Photo 1" /></div>
+        <div class="slide"><img src="img/img-2.jpg" alt="Photo 2" /></div>
+        <div class="slide"><img src="img/img-3.jpg" alt="Photo 3" /></div>
+        <div class="slide"><img src="img/img-4.jpg" alt="Photo 4" /></div> -->
+
+        <!-- SLIDER BUTTONS -->
+        <button class="slider__btn slider__btn--left">
+          <ion-icon name="arrow-back-circle-outline"></ion-icon>
+        </button>
+        <button class="slider__btn slider__btn--right">
+          <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+        </button>
+        <div class="dots"></div>
+      </div>
+    </section>
+    <!-- SIGNUP SECTION -->
+    <section class="section section--sign-up" id="section--4">
+      <!-- SIGNUP TITLE -->
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day to join TrackR was one year ago. The second best is
+          today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open your free account today!</button>
+    </section>
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <!-- FOOTER NAV -->
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <ion-icon class="footer__logo" name="card"></ion-icon>
+    </footer>
+    <!-- MODAL WINDOW -->
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <!-- BLUR OVERLAY -->
+    <div class="overlay hidden"></div>
+    <!-- SCRIPTS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
